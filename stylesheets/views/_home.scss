@@ -21,7 +21,8 @@ h1{
   padding: 3% 12%;	
 }
 .redsoc{
-	width: 10%;
+	width: 7%;
+	margin: 3% 2% 8% 2%;
  	@media screen and (max-width:#{$screen-phone})
 	{width: 18%;}	
 }
@@ -73,6 +74,9 @@ h1{
 .principal .scroll-down:hover .glyphicon { padding-top: 25px; }
 
 .principal{
+	width: 100%;
+    padding: 3% 12%;	
+	height: 700px;
 	background-image: url(../img/fondo2.jpg);
 	background-size: cover;
 	margin:0 auto;
@@ -213,12 +217,20 @@ h1{
   background-image: url(../img/tile2.png);
   @media screen and (max-width:#{$screen-phone})
 	{top: 450%;}	
-	button{
-		margin: 0 auto;
-		margin-top: 5%;
-	}
-	input,textarea{
-		margin-top: 2%;
+	.col-md-8{
+		button{
+			margin: 0 auto;
+			margin-top: 5%;
+		}
+		input{
+			margin-top: 2%;
+			width: 100%;
+		}
+		textarea{
+			margin-top: 2%;
+			height: 100px;
+			width: 100%;
+		}
 	}
 	.col-md-4{
 		.row{

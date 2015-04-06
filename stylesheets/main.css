@@ -5647,7 +5647,8 @@ h1 {
   padding: 3% 12%; }
 
 .redsoc {
-  width: 10%; }
+  width: 7%;
+  margin: 3% 2% 8% 2%; }
   @media screen and (max-width: 480px) {
     .redsoc {
       width: 18%; } }
@@ -5757,6 +5758,9 @@ h1 {
   padding-top: 25px; }
 
 .principal {
+  width: 100%;
+  padding: 3% 12%;
+  height: 700px;
   background-image: url(../img/fondo2.jpg);
   background-size: cover;
   margin: 0 auto;
@@ -5900,11 +5904,16 @@ h1 {
   @media screen and (max-width: 480px) {
     .contacto {
       top: 450%; } }
-  .contacto button {
+  .contacto .col-md-8 button {
     margin: 0 auto;
     margin-top: 5%; }
-  .contacto input, .contacto textarea {
-    margin-top: 2%; }
+  .contacto .col-md-8 input {
+    margin-top: 2%;
+    width: 100%; }
+  .contacto .col-md-8 textarea {
+    margin-top: 2%;
+    height: 100px;
+    width: 100%; }
   .contacto .col-md-4 .row {
     margin: 0; }
   .contacto .col-md-4 .col-md-2 {
